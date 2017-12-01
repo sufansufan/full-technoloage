@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/addAriticle1.css">
+</head>
+<body>
+<div class="panel">
+    <form action="updatebanner.php" method="post" enctype="multipart/form-data">
+        <div class="formgroup">
+            <div class="formgroup">
+                <input type="hidden" name="bid" placeholder="文章标题" value="<?php  echo $bid;?>">
+            </div>
+            <div class="formgroup">
+                <label for="" class="lable">company</label>
+                <input type="text" name="company" placeholder="文章标题" value="<?php  echo $company;?>">
+            </div>
+            <div class="formgroup">
+                <label for="" class="lable">banner标题</label>
+                <input type="text" name="title" placeholder="文章标题" value="<?php  echo $title;?>">
+            </div>
+            <div class="formgroup">
+                <label for="" class="lable">begins</label>
+                <input type="text" name="begins" placeholder="公司小记" value="<?php  echo $begins;?>">
+            </div>
+            <div class="formgroup" >
+                <label for="" class="lable">about</label>
+                <input type="text" name="about" placeholder="公司小记" value="<?php  echo $about;?>">
+            </div>
+            <input type="file" name="bimg" value="" class="file">
+            <img src="<?php  echo $bimg;?>" alt="">
+            <div class="formgroup">
+                <input type="submit"  name="sub" class="sub">
+            </div>
+        </div>
+    </form>
+
+</div>
+</body>
+</html>

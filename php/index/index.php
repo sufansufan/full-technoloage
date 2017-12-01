@@ -1,0 +1,20 @@
+<?php
+    header('Content-type:text/html;charset=utf8');
+    include 'header.php';
+    include '../libs/db.php';
+    $sql = "select * from icon limit 0,4";
+    $data = $mysql->query($sql)->fetch_all(MYSQL_ASSOC);
+    $sql = "select * from icon limit 4,1";
+    $data1 = $mysql->query($sql)->fetch_all(MYSQL_ASSOC);
+    $sql = "select * from icon limit 5,4";
+    $data2 = $mysql->query($sql)->fetch_all(MYSQL_ASSOC);
+    $sql = "select * from icon limit 9,4";
+    $data3 = $mysql->query($sql)->fetch_all(MYSQL_ASSOC);
+    $sql = "select * from icon limit 13,1";
+    $data4 = $mysql->query($sql)->fetch_all(MYSQL_ASSOC);
+    $sql = "select * from icon limit 14,1";
+    $data5 = $mysql->query($sql)->fetch_all(MYSQL_ASSOC);
+    $sql = "select * from icon limit 15,3";
+    $data6 = $mysql->query($sql)->fetch_all(MYSQL_ASSOC);
+    include '../template/index/index.html';
+    include 'footer.php';

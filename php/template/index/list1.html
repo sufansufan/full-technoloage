@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="/php/static/css/tese.css">
+<main>
+    <div class="home">Home <span>首页</span> > Gallery <span> 公司特色</span></div>
+    <div class="home1"><?php echo $data[0]['title1'];?></div>
+    <div class="home2"><?php echo $data[0]['title1'];?></div>
+    <div class="home3"><?php echo $data[0]['title2'];?></div>
+    <div class="home4">
+        <div class="home4-1">
+            <img src="<?php echo $data[0]['thumb'];?>" alt="">
+        </div>
+        <div class="home4-2">
+            <div class="xiao"><?php echo $data[0]['notes'];?></div>
+            <ul class="qi">
+                <?php echo $data[0]['date1'];?>
+            </ul>
+            <?php echo $data[0]['content'];?>
+        </div>
+        <div class="home4-3">
+            <div class="xiao" style="color: #fff;"> <?php echo $data[1]['notes'];?></div>
+            <ul class="qi" style="color: #fff;">
+                <?php echo $data[1]['date1'];?>
+            </ul>
+            <?php echo $data[1]['content'];?>
+            <div class="more">
+                MORE<br/>
+            </div>
+        </div>
+        <div class="home4-4">
+            <img src="<?php echo $data[1]['thumb'];?>" alt="">
+        </div>
+        <div class="home4-5">
+            <img src="<?php echo $data[2]['thumb'];?>" alt="">
+        </div>
+        <div class="home4-6">
+            <div class="xiao"><?php echo $data[2]['notes'];?></div>
+            <ul class="qi">
+                <?php echo $data[2]['date1'];?>
+            </ul>
+            <?php echo $data[2]['content'];?>
+        </div>
+    </div>
+    <style>
+        .active{
+            background: #1586e0;
+        }
+    </style>
+    <div class="box">
+        <hr class="hr1">
+        <hr class="hr2">
+        <ul class="te">
+            <?php
+                for($i=1;$i<=$pages;$i++){
+            ?>
+            <li>
+                <a href="list.php?cid=<?php echo $cid;?>& page=<?php echo $i;?>""  class="<?php echo $i==$page?'active':''?>">
+                    <?php echo $i?>
+                </a>
+            </li>
+            <?php }?>
+        </ul>
+    </div>
+</main>

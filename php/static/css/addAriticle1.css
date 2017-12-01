@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+form {
+  width: 1088px;
+  height: auto;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 20px; }
+  form .lable {
+    display: block;
+    font-size: 16px;
+    padding: 10px 0; }
+  form input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 4px; }
+  form option {
+    width: 100%;
+    height: 30px; }
+  form textarea {
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 30px; }
+  form .file {
+    height: 40px;
+    margin-bottom: 30px; }
+  form .sub {
+    width: 200px;
+    margin-left: 909px; }
+
+/*# sourceMappingURL=addAriticle1.css.map */

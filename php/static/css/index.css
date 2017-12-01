@@ -1,0 +1,439 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-17 16:13:00
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-11 08:43:35
+*/
+@import url('base.css');
+header{
+	width: 100%;
+	height: 662px;
+	/*background: red;*/
+	position: relative;
+}
+header img{
+	position: absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height: 100%;
+	display: none;
+}
+
+#img2{
+	position: absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height: 100%;
+	display: none;
+}
+header .zhezhao{
+	width: 100%;
+	height: 660px;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.head{
+	width: 1200px;
+	height: 60px;
+	/* background: red; */
+	margin: 20px auto 0px;
+}
+.head .icon-internet-other{
+	font-size: 30px;
+	color: #fff;
+	line-height: 60px;
+	float: left;
+}
+.head-font{
+	font-size: 20px;
+	margin-left: 5px;
+	color: #fff;
+	display: block;
+	float: left;
+	margin-top: 16px;
+}
+.head-right{
+	/* background: blue; */
+	float: right;
+	width: 860px;
+	height: 100%;
+}
+.head-right li{
+	float: left;
+	margin-right: 100px;
+	line-height: 60px;
+}
+.head-right li:last-child{
+	margin-right: 0;
+}
+.head-right li a{
+	font-size: 16px;
+	line-height: 60px;
+	color: #fff;
+}
+header h1{
+	text-align: center;
+	display: block;
+	margin-top: 150px;
+	color: #fff;
+	font-size: 40px;
+}
+header span{
+	text-align: center;
+	display: block;
+	margin-top: 30px;
+	font-size: 20px;
+	color: #fff;
+}
+header span span{
+	color: red;
+	display: inline;
+}
+header p{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.go{
+	width: 440px;
+	height: 50px;
+	margin: 40px auto 0;
+}
+.go a{
+	display: block;
+	font-size: 20px;
+	float: left;
+	margin-right: 25px;
+	border: 3px solid #fff;
+	border-radius: 2px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+}
+.go a:first-child:hover{
+	background: #F0C01A;
+	border: 3px solid #F0C01A;
+	/* color: #000; */
+}
+.go a:last-child{
+	margin-right: 0;
+	background: #FEFEFE;
+	color: #000;
+}
+.go a:last-child:hover{
+	background: #F0C01A;
+	border: 3px solid #F0C01A;
+	color: #000;
+}
+/* 屏幕下面 */
+.box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 80px 0;
+}
+.box1 .icon-phone{
+	font-size: 40px;
+	text-align: center;	
+}
+.box1 .icon-shezhi{
+	font-size: 40px;
+	text-align: center;	
+}
+.box1 .icon-Love{
+	font-size: 40px;
+	text-align: center;	
+}
+.box1 .icon-Support{
+	font-size: 40px;
+	text-align: center;	
+}
+.phone ,.set ,.love,.support{
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	color: #000000;
+}
+.phone1{
+	margin: 0 auto;
+	width: 160px;
+	height: 150px;
+	font-size: 14px;
+	text-align: center;
+	color: #2a2b2a;
+	line-height: 20px;
+/* 	background: blue; */
+}
+/* 关于公司 */
+.about{
+	margin-top: 40px;
+	height: auto;
+	overflow: hidden;
+	background: #f6f6f6;
+}
+.about-image{
+	width: 500px;
+	height: auto;
+	margin-left: -10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.about-image img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.about-text{
+	transition: all 1s;
+	margin-top: 30px
+}
+.text{
+	font-size: 36px;
+	font-weight: bold;
+	color: #000;
+}
+.text:hover{
+	color: #ff6700;
+	transform: scaleY(1.2) scaleX(1.01);
+}
+.text1{
+	font-size: 16px;
+	margin-top: 16px;
+	color: #000;
+}
+.text2{
+	font-size: 14px;
+	margin-top: 22px;
+	color: #878787;
+	line-height: 22px;
+}
+.text3{
+	font-size: 14px;
+	margin-top: 22px;
+	color: #878787;
+	line-height: 22px;
+}
+.service{
+	height: auto;
+	margin-top: 80px;
+	padding: 20px 0;
+}
+.ser{
+	font-size: 14px;
+	color: #000;
+}
+.ser1{
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 4px;
+	float: left;
+}
+.ser2{
+	width: 160px;
+	height: 40px;
+	border: 2px solid #d2cfcf;
+	border-radius: 2px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	color: #959494;
+	float: right;
+	margin-top: -14px;
+}
+.pro{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.pro1 > img{
+	width: 280px;
+	height: 150px;
+	display: block;
+}
+.pro2{
+	margin-top: 20px;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+}
+.pro3{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #494747;
+}
+.pro4{
+	margin-top: 80px;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 80px;
+	position: relative;
+}
+.pro4 > img{
+	width: 100%;
+	height: 100%;
+}
+.zhe{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.zhe1 > .icon-icon{
+	font-size: 50px;
+	text-align: center;
+	line-height: 200px;
+	color: #fff;
+}
+.zhe1 > .icon-liebiao{
+	font-size: 50px;
+	text-align: center;
+	line-height: 200px;
+	color: #fff;
+}
+.zhe1 > .icon-shejiao{
+	font-size: 50px;
+	text-align: center;
+	line-height: 200px;
+	color: #fff;
+}
+.zhe1 > .icon-iconfontdiaocha{
+	font-size: 50px;
+	text-align: center;
+	line-height: 200px;
+	color: #fff;
+}
+.blog{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+.blog1 > img{
+	width: 360px;
+	height: 200px;
+	display: block;
+}
+.blog2{
+	font-size: 12px;
+	color: #5e86f3;
+	margin-top: 10px;
+}
+.foot{
+	width: 100%;
+	height: auto;
+	background: #000;
+}
+.foot1{
+	font-size: 18px;
+	color: #8e8d8d;
+	margin-top: 30px;
+}
+.foot2{
+	font-size: 14px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 260px;
+}
+.foot2 li{
+	margin-top: 20px;
+}
+.foot3{
+	font-size: 14px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 260px;
+}
+.foot3 li{
+	margin-top: 20px;
+}
+.foot4{
+	font-size: 14px;
+	color: #8e8d8d;
+	float: left;
+	margin-right:60px;
+}
+.foot4 li{
+	margin-top: 20px;
+}
+.foot5{
+	font-size: 18px;
+	color: #8e8d8d;
+	margin-top: -30px;
+	float: left;
+}
+.foot6{
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 20px;
+}
+.foot6 .icon-facebookicon{
+	display: block;
+	font-size: 20px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 10px;
+}
+.foot6 .icon-xiaoniao{
+	display: block;
+	font-size: 20px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 10px;
+}
+.foot6 .icon-be{
+	display: block;
+	font-size: 20px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 10px;
+}
+.foot6 .icon-qq{
+	display: block;
+	font-size: 20px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 10px;
+}
+.foot0{
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+}
+.foot7{
+	text-align: center;
+	color: #8e8d8d;
+	margin-right: 30px;
+	float: left;
+	font-size: 14px;
+	margin-left: 450px;	
+}
+.foot8{
+	text-align: center;
+	color: #8e8d8d;
+	margin-right: 30px;
+	float: left;
+	font-size: 14px;	
+}
+.foot9{
+	text-align: center;
+	color: #8e8d8d;
+	margin-right: 30px;
+	float: left;
+	font-size: 14px;	
+}
+.foot10{
+	text-align: center;
+	color: #8e8d8d;
+	font-size: 12px;
+	margin-top: 6px;
+}

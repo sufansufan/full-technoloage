@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  padding: 15px; }
+
+.panel {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  min-height: 200px;
+  padding: 15px; }
+  .panel .panelHeader {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 4px 4px 0px 0px; }
+  .panel .panelContent {
+    width: 100%;
+    height: auto; }
+    .panel .panelContent table {
+      width: 96%;
+      height: auto;
+      margin: 15px auto;
+      border-collapse: collapse;
+      text-align: center; }
+      .panel .panelContent table td, .panel .panelContent table th {
+        border: 1px solid #dfdfdf;
+        padding: 6px 16px; }
+      .panel .panelContent table tr:nth-of-type(2n) {
+        background: #dfdfdf; }
+      .panel .panelContent table tr:nth-of-type(2n+1) {
+        background: #cccccc; }
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background: #dfdfdf;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #000; }
+
+.btnAdd {
+  color: #fff;
+  background: #03a9f4; }
+
+.btnDel {
+  background: blue; }
+
+/*# sourceMappingURL=showCate.css.map */

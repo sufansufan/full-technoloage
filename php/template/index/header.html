@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>优创科技</title>
+    <link rel="stylesheet" type="text/css" href="/php/static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/php/static/css/response.css">
+    <link rel="stylesheet" type="text/css" href="/php/static/iconfont/iconfont.css">
+    <script src="/php/static/js/index.js"></script>
+</head>
+<body>
+<header>
+    <img src="<?php echo $data1[0]['bimg'];?>" alt="" id='img1' style="display: block;">
+    <img src="<?php echo $data1[1]['bimg'];?>" alt="" id='img2' >
+    <div class="zhezhao">
+        <div class="head">
+            <a href="" class="iconfont icon-internet-other"></a>
+            <a href="" class="head-font">优创科技</a>
+            <ul class="head-right">
+                <li><a href="index.php">首页</a></li>
+                <?php
+                    for($i=0;$i<count($data);$i++){
+                ?>
+                    <li>
+                        <a href="list.php?cid=<?php echo $data[$i]['cid'];?>">
+                            <?php echo $data[$i]['cname'];?>
+                        </a>
+                    </li>
+                <?php
+                    }
+                ?>
+
+            </ul>
+        </div>
+        <h1><?php echo $data1[0]['company'];?></h1>
+        <?php echo $data1[0]['title'];?>
+        <div class="go">
+            <a href=""><?php echo $data1[0]['begins'];?></a>
+            <a href=""><?php echo $data1[0]['about'];?></a>
+        </div>
+    </div>
+</header>

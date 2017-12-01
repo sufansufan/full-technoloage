@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/addAriticle1.css">
+</head>
+<body>
+<div class="panel">
+    <form action="updateicon.php" method="post" enctype="multipart/form-data">
+        <div class="formgroup">
+            <div class="formgroup">
+                <input type="hidden" name="id" placeholder="文章标题" value="<?php  echo $id;?>">
+            </div>
+            <div class="formgroup">
+                <label for="" class="lable">iconname</label>
+                <input type="text" name="iconname" placeholder="文章标题" value="<?php  echo $iconname;?>">
+            </div>
+            <div class="formgroup">
+                <label for="" class="lable">sketch</label>
+                <input type="text" name="sketch" placeholder="文章标题" value="<?php  echo $sketch;?>">
+            </div>
+            <div class="formgroup">
+                <label for="" class="lable">描述</label>
+                <textarea name="description" rows="3">
+                    <?php echo $description;?>
+                    </textarea>
+            </div>
+            <div class="formgroup">
+                <label for="" class="lable">标题1</label>
+                <input type="text" name="com1" placeholder="公司小记" value="<?php  echo $com1;?>">
+            </div>
+            <div class="formgroup">
+                <label for="" class="lable">标题2</label>
+                <input type="text" name="com2" placeholder="公司小记" value="<?php  echo $com2;?>">
+            </div>
+            <div class="formgroup">
+                <label for="" class="lable">介绍</label>
+                <textarea name="introduction" rows="3">
+                    <?php echo $introduction ;?>
+                    </textarea>
+            </div>
+            <input type="file" name="img" value="" class="file">
+            <img src="<?php  echo $img;?>" alt="">
+            <div class="formgroup">
+                <input type="submit"  name="sub" class="sub">
+            </div>
+        </div>
+    </form>
+
+</div>
+</body>
+</html>

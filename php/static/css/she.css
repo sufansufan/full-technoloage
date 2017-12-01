@@ -1,0 +1,349 @@
+@import url('base.css');
+header{
+	width: 100%;
+	height: 662px;
+	background: red;
+	position: relative;
+}
+header img{
+	width:100%;
+	height: 100%;
+}
+header .zhezhao{
+	width: 100%;
+	height: 660px;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.head{
+	width: 1200px;
+	height: 60px;
+	/* background: red; */
+	margin: 20px auto 0px;
+}
+.head .icon-internet-other{
+	font-size: 30px;
+	color: #fff;
+	line-height: 60px;
+	float: left;
+}
+.head-font{
+	font-size: 20px;
+	margin-left: 5px;
+	color: #fff;
+	display: block;
+	float: left;
+	margin-top: 16px;
+}
+.head-right{
+	/* background: blue; */
+	float: right;
+	width: 860px;
+	height: 100%;
+}
+.head-right li{
+	float: left;
+	margin-right: 100px;
+	line-height: 60px;
+}
+.head-right li:last-child{
+	margin-right: 0;
+}
+.head-right li a{
+	font-size: 16px;
+	line-height: 60px;
+	color: #fff;
+}
+header h1{
+	text-align: center;
+	display: block;
+	margin-top: 150px;
+	color: #fff;
+	font-size: 40px;
+}
+header span{
+	text-align: center;
+	display: block;
+	margin-top: 30px;
+	font-size: 20px;
+	color: #fff;
+}
+header span span{
+	color: red;
+	display: inline;
+}
+header p{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.go{
+	width: 440px;
+	height: 50px;
+	margin: 40px auto 0;
+}
+.go a{
+	display: block;
+	font-size: 20px;
+	float: left;
+	margin-right: 25px;
+	border: 3px solid #fff;
+	border-radius: 2px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+}
+.go a:first-child:hover{
+	background: #F0C01A;
+	border: 3px solid #F0C01A;
+	/* color: #000; */
+}
+.go a:last-child{
+	margin-right: 0;
+	background: #FEFEFE;
+	color: #000;
+}
+.go a:last-child:hover{
+	background: #F0C01A;
+	border: 3px solid #F0C01A;
+	color: #000;
+}
+main{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0 -5px 10px 10px #e7e7e7;
+	overflow: hidden;
+}
+.home{
+	margin-top: 10px;
+	font-size: 16px;
+	margin-left: 5px;
+	color: #000;
+	font-weight: bold;
+}
+.home span{
+	color: #c0bfbf;
+	font-weight: normal;
+}
+.home1{
+	width: 100%;
+	height: 300px;
+	margin-top: 30px;
+}
+.home1 img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.home2{
+	width: 920px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 30px;  
+}
+.home2-1{
+	width: 260px;
+	height: 100%;
+	float: left;
+}
+.home2-1 img{
+	width: 100%;
+	height: 100%;
+}
+.home2-2{
+	margin-left: 20px;
+	width: 600px;
+	height: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	color: #000;
+}
+.home2-2 span{
+	font-size: 14px;
+	color: #1d1d1d;
+	display: block;
+	margin-top: 20px;
+	font-weight: normal;
+}
+.home3{
+	width: 920px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.home3-1{
+	width: 600px;
+	height: 200px;
+	float: left;
+}
+.home3-1 img{
+	width: 100%;
+	height: 100%;
+}
+.home3-2{
+	margin-left: 20px;
+	width: 300px;
+	height: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	color: #000;
+}
+.home3-2 span{
+	font-size: 14px;
+	color: #1d1d1d;
+	display: block;
+	margin-top: 50px;
+	font-weight: normal;
+}
+.home4{
+	width: 920px;
+	height: 200px;
+	margin: 0 auto; 
+	margin-top: 80px;
+	padding-bottom: 40px;
+}
+.home4-1{
+	width: 700px;
+	height: 200px;
+	float: left;
+}
+.home4-1 img{
+	width: 100%;
+	height: 100%;
+}
+.home4-2{
+	margin-left: 20px;
+	width: 200px;
+	height: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	color: #000;
+}
+.home4-2 span{
+	font-size: 14px;
+	color: #1d1d1d;
+	display: block;
+	margin-top: 25px;
+	font-weight: normal;
+}
+/* 底部 */
+.foot{
+	width: 100%;
+	height: auto;
+	background: #000;
+}
+.foot1{
+	font-size: 18px;
+	color: #8e8d8d;
+	margin-top: 30px;
+}
+.foot2{
+	font-size: 14px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 260px;
+}
+.foot2 li{
+	margin-top: 20px;
+}
+.foot3{
+	font-size: 14px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 260px;
+}
+.foot3 li{
+	margin-top: 20px;
+}
+.foot4{
+	font-size: 14px;
+	color: #8e8d8d;
+	float: left;
+	margin-right:60px;
+}
+.foot4 li{
+	margin-top: 20px;
+}
+.foot5{
+	font-size: 18px;
+	color: #8e8d8d;
+	margin-top: -30px;
+	float: left;
+}
+.foot6{
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 20px;
+}
+.foot6 .icon-facebookicon{
+	display: block;
+	font-size: 20px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 10px;
+}
+.foot6 .icon-xiaoniao{
+	display: block;
+	font-size: 20px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 10px;
+}
+.foot6 .icon-be{
+	display: block;
+	font-size: 20px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 10px;
+}
+.foot6 .icon-qq{
+	display: block;
+	font-size: 20px;
+	color: #8e8d8d;
+	float: left;
+	margin-right: 10px;
+}
+.foot0{
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+}
+.foot7{
+	text-align: center;
+	color: #8e8d8d;
+	margin-right: 30px;
+	float: left;
+	font-size: 14px;
+	margin-left: 450px;	
+}
+.foot8{
+	text-align: center;
+	color: #8e8d8d;
+	margin-right: 30px;
+	float: left;
+	font-size: 14px;	
+}
+.foot9{
+	text-align: center;
+	color: #8e8d8d;
+	margin-right: 30px;
+	float: left;
+	font-size: 14px;	
+}
+.foot10{
+	text-align: center;
+	color: #8e8d8d;
+	font-size: 12px;
+	margin-top: 6px;
+}

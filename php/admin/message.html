@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../static/js/jquery-3.2.1.min.js"></script>
+</head>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            list-style: none;
+        }
+        html,body{
+            width:100%;
+            height:100%;
+            overflow: hidden;
+        }
+        body{
+            background: url('') center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .panel{
+            width:250px;
+            height:200px;
+            border:1px solid #1586e0;
+            border-radius: 4px;
+        }
+        .panelHeader{
+            padding:6px 12px;
+            text-align: center;
+            font-size: 18px;
+            margin-top:20px;
+        }
+        .panelContent{
+            text-align: center;
+            padding:6px 12px;
+            line-height: 2.5;
+        }
+        a{
+            text-decoration: none;
+        }
+
+    </style>
+<body>
+    <div class="panel">
+        <div class="panelHeader">
+            <?php echo $message;?>
+        </div>
+        <div class="panelContent">
+            <span>5</span>s后返回
+            <a href="<?php echo $url;?>">立即返回</a>
+        </div>
+    </div>
+</body>
+<script>
+    $(function(){
+        let spans = document.querySelector('span');
+        let a = document.querySelector('a');
+        timer = setInterval(function(){
+            if(spans.innerText == 1){
+                clearInterval(timer);
+                location.href = a.href;
+            }
+            spans.innerText -=1;
+        },1000)
+    })
+</script>
+</html>

@@ -1,0 +1,115 @@
+<link rel="stylesheet" type="text/css" href="/php/static/css/index.css">
+<!-- 屏幕下面 -->
+<section class="box">
+    <div class="containter">
+        <div class="row">
+            <?php
+            for($i=0;$i<count($data);$i++){
+            ?>
+            <div class="box1 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="iconfont <?php echo $data[$i]['iconname'];?>"></div>
+                <div class="phone"><?php echo $data[$i]['sketch'];?></div>
+                <div class="phone1">
+                    <?php echo $data[$i]['description'];?>
+                </div>
+            </div>
+            <?php  }?>
+        </div>
+    </div>
+</section>
+<!-- 关于 -->
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="about-image">
+                    <img src="<?php echo $data[0]['img'];?>" alt="">
+                </div>
+
+            </div>
+            <div class="about-text col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <a href=""><div class="text"><?php echo $data[0]['com1'];?></div></a>
+                <div class="text1"><?php echo $data[0]['com2'];?></div>
+                <?php echo $data[0]['introduction'];?>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class=ser>
+                    <?php echo $data1[0]['com1'];?>
+                </div>
+                <div class="ser1"><?php echo $data1[0]['com2'];?></div>
+                <div class="ser2"><?php echo $data1[0]['introduction'];?></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pro">
+    <div class="container">
+        <div class="row">
+            <?php for($i=0;$i<count($data2);$i++){?>
+            <div class="pro1 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <img src="<?php echo $data2[$i]['img'];?>">
+                <div class="pro2">
+                    <?php echo $data2[$i]['com1'];?>
+                </div>
+                <div class="pro3">
+                    <?php echo $data2[$i]['com2'];?>
+                </div>
+            </div>
+            <?php }?>
+        </div>
+    </div>
+</section>
+<section></section>
+<!-- pro下面 -->
+<section class="pro4">
+    <img src="<?php echo $data4[0]['img']?>" alt="">
+    <div class="zhe">
+        <div class="container">
+            <div class="row">
+                <?php for($i=0;$i<count($data3);$i++){?>
+                <div class="zhe1 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="iconfont <?php echo $data3[$i]['iconname']?>"></div>
+                </div>
+                <?php }?>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- blog -->
+<section class="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class=ser>
+                    <?php echo $data5[0]['com1']?>
+                </div>
+                <div class="ser1"><?php echo $data5[0]['com2']?></div>
+                <div class="ser2"><?php echo $data5[0]['introduction']?></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog">
+    <div class="container">
+        <div class="row">
+            <?php for($i=0;$i<count($data6);$i++){?>
+            <div class="blog1 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <img src="<?php echo $data6[$i]['img']?>" alt="">
+                <div class="pro2">
+                    <?php echo $data6[$i]['com1']?>
+                </div>
+                <div class="pro3">
+                    <?php echo $data6[$i]['com2']?>
+                </div>
+                <div class="blog2"><?php echo $data6[$i]['introduction']?></div>
+            </div>
+            <?php }?>
+        </div>
+    </div>
+</section>
